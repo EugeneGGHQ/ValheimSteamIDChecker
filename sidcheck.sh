@@ -6,4 +6,4 @@
 #-------------
 #Outputs all of the 7th column, removing all else with -d' ' leaving only unique entries, and outputting to steamidlist.txt
 #-------------
-grep handshake vhserver-console.log | cut -f 7 -d' ' | sort -u > steamidlist.txt
+grep handshake vhserver-console.log | cut -f 7 -d' ' | sort -u > sidlist.txt
